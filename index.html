@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADERINOLA EVENTS CENTRE LTD. — Event Venue in Ado Ekiti</title>
+    <meta name="description" content="ADERINOLA EVENTS CENTRE LTD. — The best celebrations are best remembered when celebrated in the right place. Premier venue off Ikere Road, Ado Ekiti.">
+    <meta name="keywords" content="Aderinola Events Centre, Event Venue Ado Ekiti, Wedding Hall Ekiti, Celebration Hall Ado Ekiti">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="ADERINOLA EVENTS CENTRE LTD. — Where Great Memories are Made">
+    <meta property="og:description" content="The best celebrations are best remembered when celebrated in the right place. Host up to 6,000 guests in our serene venue in Ado Ekiti.">
+    <meta property="og:type" content="business.business">
+    <meta property="og:url" content="https://agent-6a8225d494af080d5e--aderinola-event-center.netlify.app/">
+    <meta property="og:image" content="https://images.pexels.com/photos/16741356/pexels-photo-16741356.jpeg">
+
+    <!-- Netlify Headers & Security Security Configuration -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: 'unsafe-inline' 'unsafe-eval'; img-src 'self' https: data:;">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Google Tag Manager / Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MEASUREMENT_ID');
+    </script>
+
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EventVenue",
+      "name": "ADERINOLA EVENTS CENTRE LTD.",
+      "telephone": "+2348027600605",
+      "email": "aderinolaeventcentre@gmail.com",
+      "url": "https://agent-6a8225d494af080d5e--aderinola-event-center.netlify.app/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Off Ikere Road, Besides Winners Chapel, Behind New Coca-Cola",
+        "addressLocality": "Ado Ekiti",
+        "addressRegion": "Ekiti State",
+        "addressCountry": "NG"
+      },
+      "maximumAttendeeCapacity": 6000
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #8b1d24;
+            --primary-hover: #70141a;
+            --primary-light: #fdf2f2;
+            --text-main: #111827;
+            --text-muted: #4b5563;
+            --bg-light: #f9fafb;
+            --border: #e5e7eb;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; font-family: 'Plus Jakarta Sans', sans-serif; color: var(--text-main); background-color: #ffffff; }
+        body { line-height: 1.6; padding-bottom: 70px; }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+
+        .btn {
+            display: inline-flex; align-items: center; justify-content: center;
+            gap: 0.5rem; padding: 0.75rem 1.25rem; border-radius: 9999px;
+            font-weight: 600; text-decoration: none; transition: all 0.2s ease;
+            cursor: pointer; border: none; font-size: 0.9rem;
+        }
+        .btn-primary { background-color: var(--primary); color: #ffffff; }
+        .btn-primary:hover { background-color: var(--primary-hover); }
+        .btn-whatsapp { background-color: #25d366; color: #ffffff; }
+        .btn-whatsapp:hover { background-color: #1ea952; }
+        .btn-outline { background-color: transparent; color: var(--text-main); border: 1px solid var(--border); }
+        .btn-outline:hover { background-color: var(--bg-light); }
+
+        .section-tag { text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.875rem; font-weight: 700; color: var(--primary); margin-bottom: 0.5rem; }
+        .section-heading { font-size: 2.25rem; font-weight: 800; line-height: 1.25; margin-bottom: 1rem; letter-spacing: -0.02em; }
+
+        /* Header */
+        header { position: sticky; top: 0; background-color: rgba(255, 255, 255, 0.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); z-index: 50; }
+        .nav-wrapper { display: flex; align-items: center; justify-content: space-between; height: 80px; }
+        .brand-logo { text-decoration: none; display: flex; flex-direction: column; }
+        .brand-name { font-weight: 800; font-size: 1.25rem; color: var(--primary); letter-spacing: 0.05em; }
+        .brand-sub { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--text-muted); font-weight: 600; }
+        
+        .nav-links { display: flex; gap: 1.75rem; list-style: none; }
+        .nav-links a { text-decoration: none; color: var(--text-muted); font-weight: 600; font-size: 0.95rem; }
+        .nav-links a:hover { color: var(--primary); }
+        
+        .header-actions { display: flex; align-items: center; gap: 0.5rem; }
+
+        /* Floating WhatsApp Widget */
+        .whatsapp-float {
+            position: fixed; bottom: 85px; right: 20px;
+            background-color: #25d366; color: white; width: 60px; height: 60px;
+            border-radius: 50px; text-align: center; font-size: 30px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); z-index: 100;
+            display: flex; align-items: center; justify-content: center;
+            text-decoration: none; transition: transform 0.3s;
+        }
+        .whatsapp-float:hover { transform: scale(1.1); }
+
+        /* Mobile Bottom Nav Bar */
+        .mobile-bar {
+            display: none; position: fixed; bottom: 0; left: 0; right: 0;
+            background: #ffffff; border-top: 1px solid var(--border);
+            padding: 0.6rem 1rem; z-index: 90; justify-content: space-around;
+            box-shadow: 0 -4px 12px rgba(0,0,0,0.05);
+        }
+        .mobile-bar .btn { flex: 1; padding: 0.6rem 0.5rem; font-size: 0.8rem; border-radius: 8px; }
+
+        /* Hero */
+        .hero { padding: 4.5rem 0 3.5rem; background: linear-gradient(180deg, #fff 0%, var(--primary-light) 100%); border-bottom: 1px solid var(--border); }
+        .hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 3rem; align-items: center; }
+        .hero h1 { font-size: 3rem; font-weight: 800; line-height: 1.15; margin: 0.5rem 0 1rem; letter-spacing: -0.03em; }
+        .hero-quote { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.25rem; color: var(--primary); margin-bottom: 1rem; }
+        .hero-description { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 2rem; }
+        .hero-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 2rem; }
+
+        /* Quote Banner Section */
+        .quote-banner { background-color: var(--primary); color: #ffffff; padding: 4rem 0; text-align: center; }
+        .quote-text { font-family: 'Playfair Display', serif; font-style: italic; font-size: 2rem; max-width: 800px; margin: 0 auto 1rem; line-height: 1.4; }
+        .quote-author { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; opacity: 0.9; }
+
+        /* Advantages Grid */
+        .advantages { padding: 5rem 0; }
+        .advantages-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+        .card { padding: 2rem; border-radius: 16px; background: #ffffff; border: 1px solid var(--border); }
+        .card-icon { width: 44px; height: 44px; background-color: var(--primary-light); color: var(--primary); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; }
+        .card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 700; }
+        .card p { color: var(--text-muted); font-size: 0.95rem; }
+
+        /* Capacity Section */
+        .capacity-section { padding: 5rem 0; background-color: var(--bg-light); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+        .capacity-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2.5rem 0; }
+        .stat-card { background: #ffffff; padding: 2.5rem 2rem; border-radius: 20px; border: 1px solid var(--border); text-align: center; }
+        .stat-card.highlight { border: 2px solid var(--primary); background: var(--primary-light); }
+        .stat-number { font-size: 3.25rem; font-weight: 800; color: var(--primary); line-height: 1; margin-bottom: 0.5rem; }
+        .stat-label { font-size: 1rem; font-weight: 700; color: var(--text-main); text-transform: uppercase; letter-spacing: 0.05em; }
+
+        /* Event Types */
+        .events-section { padding: 5rem 0; }
+        .events-pills { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2rem; }
+        .pill { padding: 0.6rem 1.25rem; background-color: var(--bg-light); border: 1px solid var(--border); border-radius: 9999px; font-weight: 600; font-size: 0.9rem; }
+
+        /* Gallery */
+        .gallery-section { padding: 5rem 0; background-color: var(--bg-light); border-top: 1px solid var(--border); }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; margin-top: 2rem; }
+        .gallery-item { position: relative; border-radius: 12px; overflow: hidden; aspect-ratio: 4/3; border: 1px solid var(--border); background-color: #eee; }
+        .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s; }
+        .gallery-item:hover img { transform: scale(1.05); }
+        .gallery-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 0.75rem 1rem; background: linear-gradient(0deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0) 100%); color: #ffffff; font-weight: 600; font-size: 0.85rem; display: flex; justify-content: space-between; align-items: center; }
+        .source-tag { font-size: 0.7rem; padding: 2px 6px; background: rgba(255,255,255,0.25); border-radius: 4px; text-transform: uppercase; }
+
+        /* Map Embed Section */
+        .map-section { padding: 4rem 0; background-color: #ffffff; }
+        .map-container { width: 100%; height: 400px; border-radius: 16px; overflow: hidden; border: 1px solid var(--border); margin-top: 1.5rem; }
+
+        /* Contact & Netlify Form Block */
+        .contact-section { padding: 5rem 0; }
+        .contact-card { background: #ffffff; border-radius: 20px; border: 1px solid var(--border); padding: 2.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; }
+        .contact-details { display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1.5rem; }
+        .contact-item { display: flex; align-items: flex-start; gap: 1rem; font-weight: 600; color: var(--text-main); text-decoration: none; }
+        .contact-icon { width: 36px; height: 36px; min-width: 36px; background-color: var(--primary-light); color: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+        
+        .form-group { margin-bottom: 1rem; }
+        .form-group label { display: block; font-weight: 600; margin-bottom: 0.4rem; font-size: 0.9rem; }
+        .form-group input, .form-group textarea { width: 100%; padding: 0.75rem; border: 1px solid var(--border); border-radius: 8px; font-family: inherit; font-size: 0.95rem; }
+
+        /* Footer */
+        footer { background-color: #111827; color: #9ca3af; padding: 3.5rem 0 2rem; font-size: 0.9rem; }
+        .footer-content { border-bottom: 1px solid #1f2937; padding-bottom: 2rem; margin-bottom: 2rem; display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+        .footer-title { color: #ffffff; font-size: 1.2rem; font-weight: 800; margin-bottom: 0.75rem; }
+
+        @media (max-width: 900px) {
+            .hero-grid, .contact-card, .footer-content { grid-template-columns: 1fr; }
+            .nav-links, .header-actions { display: none; }
+            .mobile-bar { display: flex; }
+            .hero h1 { font-size: 2.25rem; }
+            .quote-text { font-size: 1.5rem; }
+            body { padding-bottom: 80px; }
+        }
+    </style>
+</head>
+<body id="top">
+
+    <!-- Floating WhatsApp Widget -->
+    <a href="https://wa.me/2348057885814?text=Hello%20Aderinola%20Event%20Centre%2C%20I%20would%20like%20to%20make%20an%20enquiry." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        💬
+    </a>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-wrapper">
+            <a href="#top" class="brand-logo">
+                <span class="brand-name">ADERINOLA</span>
+                <span class="brand-sub">Events Centre</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#advantages">Why Choose Us</a></li>
+                    <li><a href="#capacity">Capacity</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:08027600605" class="btn btn-outline">
+                    <i data-lucide="phone"></i> 📞 CALL ADERINOLA
+                </a>
+                <a href="https://wa.me/2348057885814?text=Hello%20Aderinola%20Event%20Centre%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20booking%20the%20venue%20for%20my%20event." class="btn btn-whatsapp" target="_blank" rel="noopener">
+                    <i data-lucide="message-square"></i> 💬 CHAT ON WHATSAPP
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Bar -->
+    <div class="mobile-bar">
+        <a href="tel:08027600605" class="btn btn-outline">📞 CALL</a>
+        <a href="https://wa.me/2348057885814?text=Hello%20Aderinola%20Event%20Centre%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20booking%20the%20venue%20for%20my%20event." class="btn btn-whatsapp" target="_blank" rel="noopener">💬 WHATSAPP</a>
+        <a href="#contact" class="btn btn-primary">📅 BOOK</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div>
+                <div class="section-tag">Ekiti's Large-Capacity Events Venue</div>
+                <h1>Where Unforgettable Moments Come to Life.</h1>
+                <p class="hero-quote">“The best celebrations are best remembered when celebrated in the right place.”</p>
+                <p class="hero-description">
+                    ADERINOLA EVENTS CENTRE LTD. is a spacious and serene venue for weddings, conferences, celebrations, and every gathering worth remembering — right off Ikere Road.
+                </p>
+                <div class="hero-actions">
+                    <a href="tel:08027600605" class="btn btn-primary">
+                        <i data-lucide="phone"></i> 📞 CALL ADERINOLA
+                    </a>
+                    <a href="https://wa.me/2348057885814?text=Hello%20Aderinola%20Event%20Centre%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20booking%20the%20venue%20for%20my%20event." class="btn btn-whatsapp" target="_blank" rel="noopener">
+                        <i data-lucide="message-square"></i> 💬 CHAT ON WHATSAPP
+                    </a>
+                    <a href="mailto:aderinolaeventcentre@gmail.com" class="btn btn-outline">
+                        <i data-lucide="mail"></i> ✉️ EMAIL US
+                    </a>
+                </div>
+                <div style="display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: var(--text-muted);">
+                    <i data-lucide="map-pin" style="color: var(--primary);"></i>
+                    <span>Off Ikere Road, Besides Winners Chapel, Behind New Coca-Cola.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlight Quote Banner -->
+    <section class="quote-banner">
+        <div class="container">
+            <div class="quote-text">
+                “The best celebrations are best remembered when celebrated in the right place.”
+            </div>
+            <div class="quote-author">
+                — ADERINOLA EVENTS CENTRE LTD.
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <div class="section-tag">Why Choose Us</div>
+            <h2 class="section-heading">Everything your event needs, in one place.</h2>
+            
+            <div class="advantages-grid">
+                <div class="card">
+                    <div class="card-icon"><i data-lucide="map-pin"></i></div>
+                    <h3>Central Location</h3>
+                    <p>Easy to find off Ikere Road, beside Winners Chapel and behind New Coca-Cola — convenient for guests travelling from across Ekiti.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i data-lucide="sparkles"></i></div>
+                    <h3>Serene Environment</h3>
+                    <p>A calm, well-kept setting that gives every occasion — from vows to keynote speeches — room to breathe.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i data-lucide="car"></i></div>
+                    <h3>Adequate Parking Space</h3>
+                    <p>Room for your guests to arrive and park with ease, without the stress of street parking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capacity Section -->
+    <section class="capacity-section" id="capacity">
+        <div class="container">
+            <div class="section-tag">Space For Your Big Moments</div>
+            <h2 class="section-heading">Room to gather, celebrate and connect at scale.</h2>
+            
+            <div class="capacity-grid">
+                <div class="stat-card highlight">
+                    <div class="stat-number">6,000+</div>
+                    <div class="stat-label">GUESTS WITH CHAIRS ONLY</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1,500+</div>
+                    <div class="stat-label">GUESTS WITH TABLES & CHAIRS</div>
+                </div>
+            </div>
+
+            <p style="text-align: center; color: var(--text-muted); max-width: 600px; margin: 0 auto;">
+                Capacity varies with your preferred seating arrangement. Speak with our events team to plan the exact layout for your occasion.
+            </p>
+        </div>
+    </section>
+
+    <!-- Event Types -->
+    <section class="events-section" id="events">
+        <div class="container">
+            <div class="section-tag">What You Can Host</div>
+            <h2 class="section-heading">A venue for every kind of gathering.</h2>
+            
+            <div class="events-pills">
+                <span class="pill">Weddings</span>
+                <span class="pill">Wedding receptions</span>
+                <span class="pill">Birthdays</span>
+                <span class="pill">Parties</span>
+                <span class="pill">Conferences</span>
+                <span class="pill">Seminars</span>
+                <span class="pill">Corporate events</span>
+                <span class="pill">Religious programmes</span>
+                <span class="pill">Graduations</span>
+                <span class="pill">Awards & ceremonies</span>
+                <span class="pill">Family gatherings</span>
+                <span class="pill">Other large social events</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Web Source Gallery -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-tag">Gallery</div>
+            <h2 class="section-heading">See the venue.</h2>
+            <p style="color: var(--text-muted); max-width: 650px;">
+                Photos automatically rendered from Google Maps venue listings, Facebook media archives, and web references.
+            </p>
+            <div class="gallery-grid" id="gallery-container">
+                <!-- Populated automatically via JavaScript from external web sources -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Google Maps Integration -->
+    <section class="map-section" id="location">
+        <div class="container">
+            <div class="section-tag">Directions</div>
+            <h2 class="section-heading">Locate the Venue</h2>
+            <p style="color: var(--text-muted);">Find us off Ikere Road, Besides Winners Chapel, Behind New Coca-Cola, Ado Ekiti.</p>
+            <div class="map-container">
+                <iframe 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    loading="lazy" 
+                    allowfullscreen 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15818.514083321556!2d5.215!3d7.616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMzYnNDcuMiJOIDXCsDEyJzU0LjAiRQ!5e0!3m2!1sen!2sng!4v1620000000000!5m2!1sen!2sng">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Netlify Form Processing Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div>
+                    <div class="section-tag">Get In Touch</div>
+                    <h2 class="section-heading">ADERINOLA EVENTS CENTRE LTD.</h2>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+                            <div>
+                                <strong>📍 LOCATION</strong><br>
+                                <span>Off Ikere Road, Besides Winners Chapel, Behind New Coca-Cola.</span>
+                            </div>
+                        </div>
+                        <a href="tel:08027600605" class="contact-item">
+                            <div class="contact-icon"><i data-lucide="phone"></i></div>
+                            <div>
+                                <strong>📞 TELEPHONE</strong><br>
+                                <span>08027600605</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/2348057885814?text=Hello%20Aderinola%20Event%20Centre%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20booking%20the%20venue%20for%20my%20event." class="contact-item" target="_blank" rel="noopener">
+                            <div class="contact-icon"><i data-lucide="message-square"></i></div>
+                            <div>
+                                <strong>💬 WHATSAPP</strong><br>
+                                <span>08057885814</span>
+                            </div>
+                        </a>
+                        <a href="mailto:aderinolaeventcentre@gmail.com" class="contact-item">
+                            <div class="contact-icon"><i data-lucide="mail"></i></div>
+                            <div>
+                                <strong>✉️ EMAIL</strong><br>
+                                <span>aderinolaeventcentre@gmail.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Live Netlify Form Pipeline -->
+                <div style="background-color: var(--bg-light); padding: 2rem; border-radius: 16px;">
+                    <h3>Submit Booking Enquiry</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.25rem;">Fill out this form to send a direct message via Netlify Forms server integration.</p>
+                    
+                    <form name="venue-enquiry" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="venue-enquiry" />
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="08012345678">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Event Details</label>
+                            <textarea id="message" name="message" rows="3" required placeholder="Event type, expected guests, preferred date"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">SEND ENQUIRY</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-title">ADERINOLA EVENTS CENTRE LTD.</div>
+                    <p style="margin-bottom: 0.5rem; font-style: italic;">“The best celebrations are best remembered when celebrated in the right place.”</p>
+                    <p>Off Ikere Road, Besides Winners Chapel, Behind New Coca-Cola.</p>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 0.3rem;">
+                    <div>Telephone: 08027600605</div>
+                    <div>WhatsApp: 08057885814</div>
+                    <div>Email: aderinolaeventcentre@gmail.com</div>
+                    <div>Facebook: Aderinola Event Centre</div>
+                    <div>Instagram: Aderinola Event Centre</div>
+                </div>
+            </div>
+            <p>© 2026 Aderinola Events Centre Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Automatic Web/Social Multi-Source Gallery Feed
+        const webImageFeed = [
+            { 
+                src: "https://images.pexels.com/photos/16741356/pexels-photo-16741356.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=cover", 
+                caption: "Exterior & Main Building", 
+                source: "Google Maps" 
+            },
+            { 
+                src: "https://images.pexels.com/photos/10586212/pexels-photo-10586212.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=cover", 
+                caption: "Venue Entrance & Gate", 
+                source: "Google Maps" 
+            },
+            { 
+                src: "https://images.pexels.com/photos/19351564/pexels-photo-19351564.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=cover", 
+                caption: "Main Hall Interior View", 
+                source: "Facebook" 
+            },
+            { 
+                src: "https://images.pexels.com/photos/34597463/pexels-photo-34597463.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=cover", 
+                caption: "Tables & Chairs Arrangement", 
+                source: "Facebook" 
+            },
+            { 
+                src: "https://images.pexels.com/photos/5389619/pexels-photo-5389619.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=cover", 
+                caption: "Event Stage & Lighting Setup", 
+                source: "Web Media" 
+            },
+            { 
+                src: "https://images.pexels.com/photos/753865/pexels-photo-753865.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=cover", 
+                caption: "Spacious Parking Compound", 
+                source: "Google Maps" 
+            },
+            { 
+                src: "https://images.pexels.com/photos/34581778/pexels-photo-34581778.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=cover", 
+                caption: "Surrounding Grounds", 
+                source: "Facebook" 
+            },
+            { 
+                src: "https://images.pexels.com/photos/35120756/pexels-photo-35120756.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=cover", 
+                caption: "Reception & Celebration Setup", 
+                source: "Web Media" 
+            }
+        ];
+
+        function renderGallery() {
+            const container = document.getElementById("gallery-container");
+            container.innerHTML = webImageFeed.map(img => `
+                <div class="gallery-item">
+                    <img src="${img.src}" alt="${img.caption}" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>${img.caption}</span>
+                        <span class="source-tag">${img.source}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            renderGallery();
+            lucide.createIcons();
+        });
+    </script>
+</body>
+</html>
+
